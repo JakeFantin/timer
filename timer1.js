@@ -8,7 +8,7 @@ const beep = (number) => {
 console.log(typeof args[0]);
 for(const num of args){
   console.log(typeof num);
-  if(num > 0){
+  if(num >= 0){
     console.log(num);
     beep(num);
   }
